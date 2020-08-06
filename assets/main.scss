@@ -1,0 +1,25 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+table {
+  border: #ccc 1px solid;
+  border-radius: 1px;
+  margin-bottom: 1em;
+}
+table th {
+  padding: 2px;
+  border-top: 1px solid #fafafa;
+  border-bottom: 1px solid #e0e0e0;
+}
+table tr {
+  padding-left: 20px;
+}
+table td {
+  padding: 2px;
+  border-top: 1px solid #ffffff;
+  border-bottom:1px solid #e0e0e0;
+  border-left: 1px solid #e0e0e0;
+}
